@@ -11,7 +11,7 @@
 }
 
 .row {
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 .column {
@@ -61,6 +61,22 @@
 
   &.four-fifths {
     width: percentage(4 / 5);
+  }
+
+  &.one-sixth {
+    width: percentage(1 / 6);
+  }
+
+  &.five-sixths {
+    width: percentage(5 / 6);
+  }
+
+  &.left {
+    float: left;
+  }
+
+  &.right {
+    float: right;
   }
 
   @media screen and (max-width: 768px) {
